@@ -1,0 +1,16 @@
+ffffff,ffffff,ffffff,ffffff,ffffff,ff00,ff00,ff00,ff00,ff00,ffffff,ffffff,ffffff,ffffff,ffffff,ffffff
+ffffff,ffffff,ffffff,ffffff,ff00,ff00,ff00,ff00,ff00,ff00,ff00,ff00,ff00,ffffff,ffffff,ffffff
+ffffff,ffffff,ffffff,ffffff,0,0,0,ff8080,ff8080,0,ff8080,ffffff,ffffff,ffffff,ffffff,ffffff
+ffffff,ffffff,ffffff,0,ff8080,0,ff8080,ff8080,ff8080,0,ff8080,ff8080,ffffff,ffffff,ffffff,ffffff
+ffffff,ffffff,ffffff,0,ff8080,0,0,ff8080,ff8080,ff8080,0,ff8080,ff8080,ff8080,ffffff,ffffff
+ffffff,ffffff,ffffff,ffffff,0,ff8080,ff8080,ff8080,ff8080,0,0,0,0,ffffff,ffffff,ffffff
+ffffff,ffffff,ffffff,ffffff,ffffff,ff8080,ff8080,ff8080,ff8080,ff8080,ff8080,ffffff,ffffff,ffffff,ffffff,ffffff
+ffffff,ffffff,ffffff,ffffff,ff00,ff00,ff,ff00,ff00,ff,ff00,ff00,ffffff,ffffff,ffffff,ffffff
+ffffff,ffffff,ffffff,ff00,ff00,ff00,ff,ff00,ff00,ff,ff00,ff00,ff00,ffffff,ffffff,ffffff
+ffffff,ffffff,ff00,ff00,ff00,ff00,ff,ff,ff,ff,ff00,ff00,ff00,ff00,ffffff,ffffff
+ffffff,ffffff,ff8080,ff8080,ff00,ff,ffff00,ff,ff,ffff00,ff,ff00,ff8080,ff8080,ffffff,ffffff
+ffffff,ffffff,ff8080,ff8080,ff8080,ff,ff,ff,ff,ff,ff,ff8080,ff8080,ff8080,ffffff,ffffff
+ffffff,ffffff,ff8080,ff8080,ff,ff,ff,ff,ff,ff,ff,ff,ff8080,ff8080,ffffff,ffffff
+ffffff,ffffff,ffffff,ffffff,ff,ff,ff,ffffff,ffffff,ff,ff,ff,ffffff,ffffff,ffffff,ffffff
+ffffff,ffffff,ffffff,800000,800000,800000,ffffff,ffffff,ffffff,ffffff,800000,800000,800000,ffffff,ffffff,ffffff
+ffffff,ffffff,800000,800000,800000,800000,ffffff,ffffff,ffffff,ffffff,800000,800000,800000,800000,ffffff,ffffff

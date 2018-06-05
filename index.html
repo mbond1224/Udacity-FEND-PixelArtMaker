@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Pixel Art Maker</h1>
+      <!-- <form id="sizePicker"> -->
+        <!-- Height: -->
+        <div id="config">
+        <input type="number" id="inputHeight" name="height" min="1" value="10">
+        <!-- Width: -->X
+        <input type="number" id="inputWidth" name="width" min="1" value="20">
+        
+        <button id="drawBtn" class="btn btn-primary zoom" data-toggle="tooltip" title="Draw the grid">
+            <i class="fa fa-table"></i>
+        </button>
+    </div>
+    <h2>Load from file</h2>
+    <div> <input type="file" id="fileInput"></div>
+        <div id="ctrls">
+                <button id="colordummy" class="btn btn-primary zoom" data-toggle="tooltip" title="change the color">
+            <input type="color" id="colorPicker">
+            </button>
+            <button id="clrBtn" class="btn btn-primary zoom" data-toggle="tooltip" title="Clear one cell">
+                <i class="fa fa-eraser"></i>
+            </button>
+          
+            <button id="resetBtn" class="btn btn-primary zoom" data-toggle="tooltip" title="Clear the grid"><i class="fa fa-trash"></i></button>
+            <button id="captureBtn" class="btn btn-primary zoom" data-toggle="tooltip" title="Download the Pixel Art"><i class="fa fa-camera-retro"></i></button>
+            <button id="saveBtn" class="btn btn-primary zoom" data-toggle="tooltip" title="Save the Source"><i class="fa fa-save"></i></button>
+                     
+        </div>
+        <div id="transCtrls">
+                <button id="compBtn" class="btn btn-primary zoom" data-toggle="tooltip" title="Invert the colors"><i class="fa fa-minus-square"></i></button>
+                <button id="rotateBtn" class="btn btn-primary zoom" data-toggle="tooltip" title="Rotate the image clockwise"><i class="fa fa-redo-alt"></i></button>
+                <button id="flipHorizBtn" class="btn btn-primary zoom" data-toggle="tooltip" title="Flip image Horizontally"><i class="fas fa-exchange-alt"></i></button>
+                <button id="flipVertBtn" class="btn btn-primary zoom" data-toggle="tooltip" title="Flip image Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+        </div>
+   <!--  </form> -->
+
+  
+   
+    <div id="pixelCanvas"></div> 
+    
+    <script src="http://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>

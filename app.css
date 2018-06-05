@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, rgb(0, 242, 96), rgb(5, 117, 230));
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 2px;
+}
+
+td {
+    width: 10px;
+    height: 10px;
+}
+
+input[type=number] {
+    width: 3em;
+    height: 35px;
+}
+input[type=color] {
+    display: inline-block;
+    height: 25px;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+#ctrls{
+    margin:3px;
+    
+}
+#fileInput{
+color: transparent;
+}
+#pixelCanvas{
+    margin: 10px;
+}
+zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2); /* (120% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
